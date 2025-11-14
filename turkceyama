@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türk Oyun Yama Merkezi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+        body {
+            box-sizing: border-box;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        .download-btn:hover {
+            background: linear-gradient(135deg, #059669, #047857);
+        }
+    </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="/_sdk/element_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 min-h-full text-white">
+  <header class="bg-black/30 backdrop-blur-sm border-b border-purple-500/30">
+   <div class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+     <div class="flex items-center space-x-3">
+      <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center"><span class="text-xl font-bold">🎮</span>
+      </div>
+      <h1 class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Türk Oyun Yama Merkezi</h1>
+     </div>
+     <nav class="hidden md:flex space-x-6"><a href="#" class="hover:text-purple-400 transition-colors">Ana Sayfa</a> <a href="#" class="hover:text-purple-400 transition-colors">Yamalar</a> <a href="#" class="hover:text-purple-400 transition-colors">İletişim</a>
+     </nav>
+    </div>
+   </div>
+  </header>
+  <main class="container mx-auto px-6 py-8">
+   <section class="text-center mb-12">
+    <h2 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">En Popüler Türkçe Yamalar</h2>
+    <p class="text-gray-300 text-lg max-w-2xl mx-auto">Sevdiğiniz oyunları Türkçe oynayın! Profesyonel çeviri ekibimizin hazırladığı kaliteli yamalar.</p>
+   </section>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+    <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-2xl">
+     <div class="w-full h-48 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg mb-4 flex items-center justify-center"><span class="text-4xl">🏰</span>
+     </div>
+     <h3 class="text-xl font-bold mb-2 text-purple-300">Elden Ring</h3>
+     <p class="text-gray-400 mb-4">Tam Türkçe çeviri yamasi. Tüm diyaloglar ve menüler Türkçe.</p>
+     <div class="flex justify-between items-center mb-4"><span class="text-green-400 font-semibold">✓ Test Edildi</span> <span class="text-gray-500">v1.2.3</span>
+     </div><button class="download-btn w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"> İndir (2.1 MB) </button>
+    </div>
+    <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-2xl">
+     <div class="w-full h-48 bg-gradient-to-br from-red-600 to-orange-600 rounded-lg mb-4 flex items-center justify-center"><span class="text-4xl">⚔️</span>
+     </div>
+     <h3 class="text-xl font-bold mb-2 text-purple-300">Cyberpunk 2077</h3>
+     <p class="text-gray-400 mb-4">Gelişmiş Türkçe yama. Ses dosyaları ve altyazılar dahil.</p>
+     <div class="flex justify-between items-center mb-4"><span class="text-green-400 font-semibold">✓ Test Edildi</span> <span class="text-gray-500">v2.0.1</span>
+     </div><button class="download-btn w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"> İndir (15.7 MB) </button>
+    </div>
+    <div class="game-card bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl p-6 border border-gray-700 shadow-2xl">
+     <div class="w-full h-48 bg-gradient-to-br from-green-600 to-teal-600 rounded-lg mb-4 flex items-center justify-center"><span class="text-4xl">🚗</span>
+     </div>
+     <h3 class="text-xl font-bold mb-2 text-purple-300">GTA V</h3>
+     <p class="text-gray-400 mb-4">Komple Türkçe çeviri. Radyo istasyonları ve reklamlar dahil.</p>
+     <div class="flex justify-between items-center mb-4"><span class="text-green-400 font-semibold">✓ Test Edildi</span> <span class="text-gray-500">v3.1.0</span>
+     </div><button class="download-btn w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"> İndir (8.9 MB) </button>
+    </div>
+   </div>
+   <section class="bg-gradient-to-r from-purple-900/50 to-blue-900/50 rounded-xl p-8 border border-purple-500/30">
+    <h3 class="text-2xl font-bold mb-6 text-center text-purple-300">Kurulum Rehberi</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+     <div class="text-center">
+      <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4"><span class="text-2xl">📥</span>
+      </div>
+      <h4 class="font-bold mb-2">1. İndir</h4>
+      <p class="text-gray-300">Oyununuz için uygun yamayı indirin</p>
+     </div>
+     <div class="text-center">
+      <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4"><span class="text-2xl">📁</span>
+      </div>
+      <h4 class="font-bold mb-2">2. Çıkart</h4>
+      <p class="text-gray-300">ZIP dosyasını oyun klasörüne çıkartın</p>
+     </div>
+     <div class="text-center">
+      <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4"><span class="text-2xl">🎮</span>
+      </div>
+      <h4 class="font-bold mb-2">3. Oyna</h4>
+      <p class="text-gray-300">Oyunu başlatın ve Türkçe keyfini çıkarın</p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-black/50 border-t border-purple-500/30 mt-12">
+   <div class="container mx-auto px-6 py-8">
+    <div class="text-center">
+     <p class="text-gray-400 mb-4">© 2024 Türk Oyun Yama Merkezi. Tüm hakları saklıdır.</p>
+     <div class="flex justify-center space-x-6"><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">Gizlilik Politikası</a> <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">Kullanım Şartları</a> <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors">İletişim</a>
+     </div>
+    </div>
+   </div>
+  </footer>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99e711778033de7a',t:'MTc2MzEyOTE3My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
